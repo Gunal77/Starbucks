@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+html{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#header-main{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    gap: 2rem;
+    padding: 2rem 2rem;
+    border-bottom: 1px solid black;
+}
+.header-secondary{
+    display: flex;
+    gap: 2rem;
+    padding-left: 22rem;
+}
+.svg{
+    padding-right: .5rem;
+}
+#box-color{
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding-top: 1.1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    border: 1px solid #fffa;
+}
+#box{
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+    padding-top: 1.1em;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.content-list{
+    padding-top: 1rem;
+}
+.header-content{
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 8rem;
+    border-bottom: 1px solid rgb(88, 86, 86);
+    position: sticky;
+    background-color: #0000000f;
+}
+.header-content :hover{
+    line-height: .4rem;
+    text-decoration: underline;
+    /* cursor: -webkit-grabbing; */
+}
+.primary-content-start{
+    padding-left: 8rem;
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+    color: #00000094;
+}
+#header-items{
+    font-weight: 550;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+}
+.primary-main{
+    display: flex;
+    padding-right: 15rem;
+}
+.primary-content-middle{
+    padding-left: 7rem;
+    list-style: none;
+    text-decoration: none;
+}
+#secondary-categories{
+    font-weight: 550;
+    padding-top: 3rem;
+}
+.categories{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+#header-categories{
+    font-size: 1.7rem;
+}
+.foods-img{
+    width: 6.4rem;
+    border-radius: 7em;
+}
+.primary-content-end{
+    padding-top: 9rem;
+    padding-left: 2rem;
+}
+.categories-gap-1{
+    padding-top: 4rem;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+.categories-gap-2{
+    padding-top: 12.2rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 6rem;
+    padding: 8rem 4rem 0rem 9rem;
+}
+.footer-head{
+    font-size: 1.2rem;
+}
+.items{
+    padding-top: 1.3rem;
+    color: #00000094;
+}
+.items :hover{
+    color: rgb(0, 0, 0);
+}
+.footer-end{
+    padding-left: 9rem;
+    padding-top: 4rem;
+}
+a{
+    padding-right: 1rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer-end-middle{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
+.copyrights{
+    color: #00000094;
+    padding-left: 9rem;
+}
