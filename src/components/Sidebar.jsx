@@ -42,7 +42,7 @@ function Sidebar() {
           </li>
           <li className='categories'>
           <img className='foods-img' src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230612_4665_SugarCookieAlmondmilkFrappuccino.jpg?impolicy=1by1_tight_288" alt="" />
-          Frappuccino Blended Beverages
+          Frappuccino® Blended Beverages
           </li>
           <li className='categories'>
           <img className='foods-img' src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190531_IcedBlackTea.jpg?impolicy=1by1_tight_288" alt="" />

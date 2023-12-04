@@ -11,10 +11,15 @@ body{
     display: flex;
     text-decoration: none;
     list-style: none;
+    position: sticky;
     font-weight: bold;
     gap: 2rem;
     padding: 2rem 2rem;
     border-bottom: 1px solid black;
+}
+.content-list :hover{
+    /* color: #006241; */
+    color: white;
 }
 .header-secondary{
     display: flex;
@@ -78,6 +83,7 @@ body{
     font-weight: 550;
     padding-top: 2rem;
     font-size: 1.1rem;
+    color: black;
 }
 .primary-main{
     display: flex;
