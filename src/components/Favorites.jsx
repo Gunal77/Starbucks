@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './footer'
-
+import NavbarContent from './NavbarContent'
 function Favorites() {
   return (
     <div>
-        <Navbar/>
+        <NavbarContent/>
         <div id='previous' className='previous-header'>
         <h2>Favorites</h2>
         <img src='/weblx/images/fav-tapes.png' alt='Illustration of well-used vintage mix tapes'></img>

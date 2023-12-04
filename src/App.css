@@ -18,13 +18,12 @@ body{
     border-bottom: 1px solid black;
 }
 .content-list :hover{
-    /* color: #006241; */
-    color: white;
+    color: #006241;
 }
 .header-secondary{
     display: flex;
     gap: 2rem;
-    padding-left: 22rem;
+    padding-left: 18rem;
 }
 .svg{
     padding-right: .5rem;
@@ -210,7 +209,7 @@ a{
     border-radius: 20px;
     border: 1px solid #000;
     justify-content: center;
-    margin-left: 15rem;
+    margin-left: 14rem;
 }
 .span{
     padding: 1.5rem;
@@ -236,4 +235,16 @@ a{
 }
 .previous-header-list{
     padding-top: 1.5rem;
+}
+.rewards-main{
+    padding: 1rem 0rem 1rem 11rem;
+    background-color: #01422c;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.primary-rewards-header{
+    background-color: rgb(212, 233, 226);
+    background-image: url("./components/images/starbucks.jpg");
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Footer from './footer'
+import NavbarContent from './NavbarContent'
 
 function Previous() {
   return (
     <div>
-        <Navbar/>
+        <NavbarContent/>
         <div id='previous' className='previous-header'>
         <h2>Previous</h2>
         <img src='/weblx/images/moon-phases.gif' alt='Animated illustration shows phases of the moon'></img>

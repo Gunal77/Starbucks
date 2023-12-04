@@ -6,6 +6,9 @@ import Home from "./components/Home";
 import Features from "./components/Features";
 import Previous from "./components/Previous";
 import Favorites from "./components/Favorites";
+import NavbarContent from "./components/NavbarContent";
+import Rewards from "./components/Rewards";
+import Menu from "./components/Menu";
 
 function App(){
   return(
@@ -16,6 +19,9 @@ function App(){
             <Route path="/featured" element={<Features />}></Route>
             <Route path="/previous" element={<Previous />}></Route>
             <Route path="/favorites" element={<Favorites/>}></Route>
+            <Route path="/" element={<NavbarContent/>}></Route>
+            <Route path="/menu" element={<Menu/>}></Route>
+            <Route path="/rewards" element={<Rewards/>}></Route>
         </Routes>
       </div>
     </Router>

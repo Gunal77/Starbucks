@@ -1,4 +1,5 @@
 import Navbar from "./Navbar"
+import NavbarContent from "./NavbarContent"
 import Sidebar from "./Sidebar"
 import Footer from "./footer"
 import React from 'react'
@@ -6,7 +7,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      <Navbar/>
+      <NavbarContent/>
       <Sidebar/>
       <Footer/>
     </div>
