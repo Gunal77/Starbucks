@@ -22,9 +22,9 @@ function Navbar() {
         </div>
           <div className='header-content'>
             <li className='header-list'><a href='#menu'> Menu</a></li>
-            <li className='header-list'><a href='#featured'>Featured</a></li>
-            <li className='header-list'>Previous</li>
-            <li className='header-list'>Favorites</li>
+            <li className='header-list'><a href='/featured'>Featured</a></li>
+            <li className='header-list'><a href='/previous'>Previous</a></li>
+            <li className='header-list'><a href='/favorites'>Favorites</a></li>
           </div>
     </div>
   )
