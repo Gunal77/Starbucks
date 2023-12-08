@@ -13,8 +13,8 @@ function Previous() {
         <div className='previous-header-1'>When history repeats itself</div>
         <div className='previous-content'>Previous orders will appear here to quickly order again.</div>
         <div className='previous-header-list'> 
-        <li id='box-gift' className='previous-list'>Sign in</li>
-        <li id='box-color' className='previous-list'>Join now</li>
+        <button id='box-gift' className='previous-list'>Sign in</button>
+        <button id='box-color' className='previous-list'>Join now</button>
         </div>
         </div>
         <Footer/>

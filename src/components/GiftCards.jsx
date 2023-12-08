@@ -33,7 +33,7 @@ function GiftCards() {
             <div className='secondary-gift-header'>
                 <h2>Received a gift card?</h2>
                 <p>Earns 2 ★  per $1</p>
-                <li id='box-gift' className='content-gift'>Add or Reload</li>
+                <li id='box-gift-cards' className='content-gift'>Add or Reload</li>
                 <li id='box-color-gift' className='content-gift'>Check balance</li>
             </div>
             <div className='header-navbar-gift'>
@@ -111,7 +111,7 @@ function GiftCards() {
                 <div className='business-content-1'>
                     <h2>Business gifting — simplified</h2>
                     <p className='right'>Bulk send physical or digital Starbucks Cards to gift, reward, incentivize, or show appreciation towards your customers, clients and team members. Minimum 15 cards per order.</p>
-                    <li id='box-gift' className='content-gift'>Show now</li>
+                    <li id='box-gift-cards' className='content-gift'>Show now</li>
                 </div>
 
             </div>
@@ -120,13 +120,13 @@ function GiftCards() {
                 <p className='right-2'>Use the links below to manage eGifts you have sent or received, or view our full Card Terms & Conditions.</p>
                 <div className='support-flex'>
                     <div className='support-content'>
-                    <li id='box-gift' className='content-gift'>eGift support</li> 
+                    <li id='box-gift-cards' className='content-gift'>eGift support</li> 
                     </div>
                     <div className='support-content'>
-                    <li id='box-gift' className='content-gift'>See Term&Conditions</li>
+                    <li id='box-gift-cards' className='content-gift'>See Term&Conditions</li>
                     </div>
                     <div className='support-content'>
-                    <li id='box-gift' className='content-gift'>See Gift FAQs</li>
+                    <li id='box-gift-cards' className='content-gift'>See Gift FAQs</li>
                     </div>
                 </div>
             </div>

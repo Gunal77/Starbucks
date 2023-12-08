@@ -13,8 +13,8 @@ function Favorites() {
         <div className='previous-header-1'>Save your favorite mixes</div>
         <div className='previous-content'>Use the heart to save customizations. Your favorites will appear here to order again.</div>
         <div className='previous-header-list'> 
-        <li id='box-gift' className='previous-list'>Sign in</li>
-        <li id='box-color' className='previous-list'>Join now</li>
+        <button id='box-gift' className='previous-list'>Sign in</button>
+        <button id='box-color' className='previous-list'>Join now</button>
         </div>
         </div>
         <Footer/>

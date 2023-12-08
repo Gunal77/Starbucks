@@ -10,11 +10,9 @@ function Rewards() {
         <div id='rewards' className='rewards-main'>Starbucks® Rewards</div>
         <div className='primary-rewards-header'>
             <div className='background-img'>
-              {/* <img src="https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png" alt="" /> */}
-            {/*images didnt open in the page*/}
-            <h2>FREE COFFEE
-              <br></br>
-              IS A TAP AWAY</h2>
+              {/* <img src="https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png" width="100%" alt="" /> */}
+            <h2 className='header-rewards'>FREE COFFEE
+            <br></br> IS A TAP AWAY</h2>
               <p>Join Now to start earnings Rewards</p>
               <li id='rewards-box-color' className='previous-list'>Join now</li>
               <p>Or <a className='color-green' href="#">join in the app</a>for the best experience</p>
