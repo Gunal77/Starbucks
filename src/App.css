@@ -41,15 +41,12 @@ body{
     border: 1px solid #fffa;
 }
 #box{
-    display: inline-block;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: #000;
-    padding-top: 1.1em;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
+    border: 1px solid black;
+    padding: auto;
+    margin: auto;
+    margin-bottom: none;
     border-radius: 20px;
-    border: 1px solid #000;
+    padding: 12px;
 }
 .content-list{
     padding-top: 1rem;
@@ -172,27 +169,34 @@ a{
     padding-bottom: 3rem;
     color: #025036; 
 }
-.primary-features > img{
-    width: 100%;
-    height: 80%;
-}
 
-.secondary-features > img{
-    width: 100%;
-    height: 80%;
-}
 .main-features{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    
 }
 .primary-features{
-    display: block;
+    padding: 0%;
+    margin: 0%;
+    background-color:#006241;
+    list-style: none;
+    text-align: center;
+    color: #fff;
 }
+.secondary-features{
+    padding: 0%;
+    margin: 0%;
+    background-color:#006241;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+
 .primary-features-header{
     display: flex;
     justify-content: center;
-    font-size: 1.4rem;  
+    font-size: 1.6rem;  
 }
 .primary-features-content{
     font-size: 1.2rem;
@@ -201,18 +205,19 @@ a{
     display: inline-block;
     font-size: 1rem;
     font-weight: bold;
-    color: #000;
+    color: #fff;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1.3rem;
     padding-right: 1.3rem;
     border-radius: 20px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     justify-content: center;
-    margin-left: 14rem;
+    
 }
 .span{
-    padding: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background-color:#006241;
 }
 .previous-header{
@@ -247,4 +252,144 @@ a{
 .primary-rewards-header{
     background-color: rgb(212, 233, 226);
     background-image: url("./components/images/starbucks.jpg");
+    padding-left: 1rem;
+}
+#rewards-box-color{
+        display: inline-block;
+        font-size: 0.8em;
+        font-weight: bold;
+        background-color: #01422c;
+        color: #fff;
+        padding-top: 1.1em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 20px;
+        border: 1px solid #fffa;
+    }
+.primary-content-rewards{
+    padding: 2rem 8rem 2rem 8rem;
+}
+.primary-content-rewards-header{
+    padding-top: 5rem;
+    text-align: center;
+}
+.rewards-content-header{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    /*items didnt come in center*/
+    padding-bottom: 4rem;
+    text-align: center;
+    gap: 4rem;
+    line-height: 1.4em;
+}
+.color-green{
+     color: #006241;
+     text-decoration: underline;
+}
+.secondary-header-rewards{
+    text-align: center;
+}
+.secondary-content-rewards{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    text-align: center;
+}
+.para-header{
+    font-size: 1.2rem;
+}
+p{
+    font-size: 1.1rem;
+}
+.header-navbar-gift{
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+.gift-image-1{
+    border-radius: 12px;
+}
+.gift-image-header-1{
+    display: flex;
+}
+.gift-image-1 :hover{
+    transform: rotate(1.4)/*zoom in not occur*/
+}
+.group-content-gift{
+    display: flex;
+    background-color: #edebe9;
+    padding: 1rem;
+    margin-right: 2rem;
+    border-radius: 12px;
+}
+.secondary-gift-header{
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-left: 8rem;
+    padding-right: 25rem;
+    background-color:#d4e9e2;
+    display: flex;
+    justify-content: center;
+
+}
+#box-color-gift{
+    /* display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #fffa;
+    margin-bottom: none; */
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid black;
+    padding: auto;
+    margin: auto;
+    margin-bottom: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 12px;
+}
+#box-gift{
+    display: inline-block;
+    border: 1px solid black;
+    padding: auto;
+    margin: auto;
+    margin-bottom: none;
+    border-radius: 20px;
+    padding: 12px;
+}
+/* .gift-image-1{
+    animation: bounce 0.5s; 
+    animation-direction: alternate; 
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+    animation-iteration-count: infinite; 
+} */
+.business-header{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    padding-left: 8rem;
+}
+.support-flex{
+    display: flex;
+    gap: 1rem;
+}
+.support-header{
+    padding-left: 8rem;
+}
+.right{
+    padding-right: 19rem;
+    color: #00000094;
+}
+.right-2{
+    padding-right: 40rem;
+    color: #00000094;
+}
+.primary-rewards-header{
+    background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png');
 }

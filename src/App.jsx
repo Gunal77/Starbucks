@@ -9,6 +9,7 @@ import Favorites from "./components/Favorites";
 import NavbarContent from "./components/NavbarContent";
 import Rewards from "./components/Rewards";
 import Menu from "./components/Menu";
+import GiftCards from "./components/GiftCards";
 
 function App(){
   return(
@@ -22,6 +23,7 @@ function App(){
             <Route path="/" element={<NavbarContent/>}></Route>
             <Route path="/menu" element={<Menu/>}></Route>
             <Route path="/rewards" element={<Rewards/>}></Route>
+            <Route path="/giftcards" element={<GiftCards/>}></Route>
         </Routes>
       </div>
     </Router>
