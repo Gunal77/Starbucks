@@ -1,24 +1,35 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Footer from './footer'
+import Footer from './Footer'
 
 function Rewards() {
   return (
     <div>
         <Navbar/>
-        <div>
-        <div id='rewards' className='rewards-main'>Starbucks® Rewards</div>
-        <div className='primary-rewards-header'>
-            <div className='background-img'>
-              {/* <img src="https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png" width="100%" alt="" /> */}
-            <h2 className='header-rewards'>FREE COFFEE
-            <br></br> IS A TAP AWAY</h2>
-              <p>Join Now to start earnings Rewards</p>
-              <li id='rewards-box-color' className='previous-list'>Join now</li>
-              <p>Or <a className='color-green' href="#">join in the app</a>for the best experience</p>
+          <header className='header'>
+            <div className='header_inner'>
+              <p>Starbucks <sup>R</sup> rewards</p>
+              <a href='#!' className='btn-light'>Join in app</a>
             </div>
-          </div>
-          
+          </header>
+          <main>
+          <section className="section_1">
+          <div className="section_1-inner">
+              <div className="inner-title">
+                <h1>Free Cofee is A Tap Away</h1>
+              </div>
+              <div className="inner-text">
+                <p>Join Now to start earnings Rewards</p>
+              </div>
+              <div className='inner-btn'>
+                <a href='#!'>Join Now</a>
+              </div>
+              <div className='inner-text'>
+                <p>Or <a href="#!">Join in the app</a> for the best experience</p>
+              </div>
+            </div>
+        </section>
+          </main>
           <div className='primary-content-rewards'>
             <div className='primary-content-rewards-header'> 
             <h2 >Getting started is easy</h2>
@@ -81,7 +92,6 @@ function Rewards() {
           </div>
           <Footer/>
         </div>
-    </div>
   )
 }
 

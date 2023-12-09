@@ -73,6 +73,7 @@ function Footer() {
           <li className='footer-contents'>Accessiblity</li>
           <li className='footer-contents'>|</li>
           <li className='footer-contents'>Cookie Preferences</li>
+        
         </div>
         <p className="copyrights">© 2023 Starbucks Coffee Company. All rights reserved.</p>
     </div>

@@ -242,48 +242,7 @@ a{
 .previous-header-list{
     padding-top: 1.5rem;
 }
-.rewards-main{
-    padding: 1rem;
-    background-color: #01422c;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-.primary-rewards-header{
-    background-color: rgb(212, 233, 226);
-    background-image: url("./components/images/starbucks.jpg");
-    padding-left: 1rem;
-}
-#rewards-box-color{
-        display: inline-block;
-        font-size: 0.8em;
-        font-weight: bold;
-        background-color: #01422c;
-        color: #fff;
-        padding-top: 1.1em;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        border-radius: 20px;
-        border: 1px solid #fffa;
-    }
-.primary-content-rewards{
-    padding: 2rem 8rem 2rem 8rem;
-}
-.primary-content-rewards-header{
-    padding-top: 5rem;
-    text-align: center;
-}
-.rewards-content-header{
-    padding-top: 2rem;
-    display: flex;
-    align-items: center;
-    /*items didnt come in center*/
-    padding-bottom: 4rem;
-    text-align: center;
-    gap: 4rem;
-    line-height: 1.4em;
-}
+
 .color-green{
      color: #006241;
      text-decoration: underline;
@@ -398,9 +357,7 @@ p{
     padding-right: 40rem;
     color: #00000094;
 }
-.primary-rewards-header{
-    background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png');
-}
+
 #box-gift-cards{
     display: inline-block;
     border: 1px solid black;
@@ -480,9 +437,142 @@ p{
 #back-color-4{
     background-color: #76232f;
 }
-.primary-rewards-header{
-    background-image: url("./components/images/star.png");
+
+
+.des-img {
+    position: absolute;
+    left: 5vw;
+    text-align: center;
+    align-items: center;
+    margin-top: 20vh;
+    z-index: 100;
 }
-.header-rewards{
-    font-size: xx-large;
+
+/* rewards */
+
+.header {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #025036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_inner {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_inner p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.header_inner p sup {
+    color: white;
+    font-size: 4px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1px 1px 1px 2px;
+}
+
+.header_inner a {
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: none;
+}
+
+
+main {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+}
+
+.section_1 {
+    height: 90vh;
+    width: 100%;
+    background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(212, 233, 226);
+    display: flex;
+    align-items: center;
+}
+
+.section_1-inner {
+    width: 20%;
+    margin-left: 12%;
+
+}
+
+.inner-title  {
+    width: 100%;
+}
+
+.inner-title h1 {
+    font-size: 35px;
+}
+
+.inner-text{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.inner-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inner-text p :last-child {
+    margin-top: 25px;
+}
+
+.inner-text p :hover {
+    text-decoration: none;
+}
+
+.inner-btn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.inner-btn a {
+    padding: 10px 25px;
+    background-color: #006241;
+    color: #fff;
+    border: 0;
+    border-radius: 35px;
+    transition: opacity 200ms;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.inner-btn a :hover {
+    opacity: .8;
+}
+
+.rewards-content-header{
+    display: flex;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.primary-content-rewards-header{
+    text-align: center;
 }
