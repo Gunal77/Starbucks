@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarContent from './NavbarContent'
 import Sidebar from './Sidebar'
-import Footer from './footer'
+import Footer from './Footer'
 
 function Menu() {
   return (
