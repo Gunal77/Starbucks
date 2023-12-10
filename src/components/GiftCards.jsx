@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import img1 from "./images/logo.png"
 import img2 from "./images/contact.png"
-import Footer from './footer'
+import Footer from './Footer'
 
 function GiftCards() {
   return (
