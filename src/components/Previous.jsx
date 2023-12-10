@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './footer'
+import Footer from './Footer'
 import NavbarContent from './NavbarContent'
 import img4 from './images/moon.png'
 
